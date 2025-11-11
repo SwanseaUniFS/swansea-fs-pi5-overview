@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/lvgl/lvgl.git
+	fetch = +refs/tags/v8.3.11:refs/tags/v8.3.11
