@@ -86,8 +86,8 @@ void ui_Screen1_screen_init(void)
 
     ui_erpmbar = lv_bar_create(ui_Screen1);
     lv_bar_set_range(ui_erpmbar, RPM_DISPLAY_MIN, RPM_DISPLAY_MAX);
-    lv_bar_set_value(ui_erpmbar, 80, LV_ANIM_OFF);
-    lv_bar_set_start_value(ui_erpmbar, 0, LV_ANIM_OFF);
+    lv_bar_set_value(ui_erpmbar, (int)((RPM_DISPLAY_MAX+RPM_DISPLAY_MIN)/2), LV_ANIM_OFF);
+    lv_bar_set_start_value(ui_erpmbar, (int)((RPM_DISPLAY_MAX+RPM_DISPLAY_MIN)/2), LV_ANIM_OFF);
     lv_obj_set_width(ui_erpmbar, 800);
     lv_obj_set_height(ui_erpmbar, 80);
     lv_obj_set_x(ui_erpmbar, 0);
@@ -100,9 +100,9 @@ void ui_Screen1_screen_init(void)
     lv_obj_set_style_bg_opa(ui_erpmbar, 255, LV_PART_INDICATOR | LV_STATE_DEFAULT);
 
     ui_rpmtextback = lv_btn_create(ui_Screen1);
-    lv_obj_set_width(ui_rpmtextback, 250);
+    lv_obj_set_width(ui_rpmtextback, 275);
     lv_obj_set_height(ui_rpmtextback, 50);
-    lv_obj_set_x(ui_rpmtextback, -10);
+    lv_obj_set_x(ui_rpmtextback, 0);
     lv_obj_set_y(ui_rpmtextback, 25);
     lv_obj_set_align(ui_rpmtextback, LV_ALIGN_TOP_MID);
     lv_obj_set_style_bg_color(ui_rpmtextback, lv_color_hex(0x00FF36), LV_PART_MAIN | LV_STATE_DEFAULT);

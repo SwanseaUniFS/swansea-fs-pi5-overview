@@ -324,10 +324,8 @@ CMakeFiles/raspi_dash.dir/main.cpp.o: /home/sure-fs/raspi-fsdash/main.cpp \
   /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
   /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/aarch64-linux-gnu/bits/time.h \
   /usr/include/aarch64-linux-gnu/bits/time64.h \
   /usr/include/aarch64-linux-gnu/bits/timesize.h \
-  /usr/include/aarch64-linux-gnu/bits/timex.h \
   /usr/include/aarch64-linux-gnu/bits/types.h \
   /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
   /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
@@ -350,11 +348,9 @@ CMakeFiles/raspi_dash.dir/main.cpp.o: /home/sure-fs/raspi-fsdash/main.cpp \
   /usr/include/aarch64-linux-gnu/bits/types/sigval_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/stack_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
@@ -396,7 +392,6 @@ CMakeFiles/raspi_dash.dir/main.cpp.o: /home/sure-fs/raspi-fsdash/main.cpp \
   /usr/include/c++/14/bits/basic_string.tcc \
   /usr/include/c++/14/bits/char_traits.h \
   /usr/include/c++/14/bits/charconv.h \
-  /usr/include/c++/14/bits/chrono.h \
   /usr/include/c++/14/bits/concept_check.h \
   /usr/include/c++/14/bits/cpp_type_traits.h \
   /usr/include/c++/14/bits/cxxabi_forced.h \
@@ -416,7 +411,6 @@ CMakeFiles/raspi_dash.dir/main.cpp.o: /home/sure-fs/raspi-fsdash/main.cpp \
   /usr/include/c++/14/bits/nested_exception.h \
   /usr/include/c++/14/bits/new_allocator.h \
   /usr/include/c++/14/bits/ostream_insert.h \
-  /usr/include/c++/14/bits/parse_numbers.h \
   /usr/include/c++/14/bits/postypes.h \
   /usr/include/c++/14/bits/predefined_ops.h \
   /usr/include/c++/14/bits/ptr_traits.h \
@@ -448,7 +442,6 @@ CMakeFiles/raspi_dash.dir/main.cpp.o: /home/sure-fs/raspi-fsdash/main.cpp \
   /usr/include/c++/14/bits/version.h \
   /usr/include/c++/14/cctype \
   /usr/include/c++/14/cerrno \
-  /usr/include/c++/14/chrono \
   /usr/include/c++/14/clocale \
   /usr/include/c++/14/cmath \
   /usr/include/c++/14/concepts \
@@ -456,7 +449,7 @@ CMakeFiles/raspi_dash.dir/main.cpp.o: /home/sure-fs/raspi-fsdash/main.cpp \
   /usr/include/c++/14/cstdint \
   /usr/include/c++/14/cstdio \
   /usr/include/c++/14/cstdlib \
-  /usr/include/c++/14/ctime \
+  /usr/include/c++/14/cstring \
   /usr/include/c++/14/cwchar \
   /usr/include/c++/14/debug/assertions.h \
   /usr/include/c++/14/debug/debug.h \
@@ -474,7 +467,6 @@ CMakeFiles/raspi_dash.dir/main.cpp.o: /home/sure-fs/raspi-fsdash/main.cpp \
   /usr/include/c++/14/pstl/execution_defs.h \
   /usr/include/c++/14/pstl/glue_algorithm_defs.h \
   /usr/include/c++/14/pstl/pstl_config.h \
-  /usr/include/c++/14/ratio \
   /usr/include/c++/14/stdlib.h \
   /usr/include/c++/14/string \
   /usr/include/c++/14/string_view \
@@ -514,7 +506,6 @@ CMakeFiles/raspi_dash.dir/main.cpp.o: /home/sure-fs/raspi-fsdash/main.cpp \
   /usr/include/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/time.h \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/lib/gcc/aarch64-linux-gnu/14/include/arm_bf16.h \
@@ -28090,6 +28081,8 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/widgets/menu/lv_menu.c.o:
 
 CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/widgets/led/lv_led.c.o:
 
+CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o:
+
 CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o:
 
 CMakeFiles/raspi_dash.dir/third_party/lvgl/src/misc/lv_gc.c.o:
@@ -28472,37 +28465,11 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/themes/default/lv_theme_def
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c:
 
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.h:
+
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_rect.c:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_mask.c:
-
-/lib/aarch64-linux-gnu/libXrandr.so.2:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_line.c:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_layer.c:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_label.c:
-
-CMakeFiles/raspi_dash.dir/third_party/lvgl/src/widgets/lv_bar.c.o:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_img.c:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_composite.c:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sw/lv_draw_sw_letter.c:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_arc.c:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl.c:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.h:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/font/lv_font_montserrat_38.c:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.h:
 
 CMakeFiles/raspi_dash.dir/third_party/lvgl/src/font/lv_font_montserrat_40.c.o:
 
@@ -28525,10 +28492,6 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/font/lv_font_montserrat_40.c.o:
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/core/lv_obj_scroll.h:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sw/lv_draw_sw.h:
-
-/usr/include/aarch64-linux-gnu/bits/timex.h:
-
-/home/sure-fs/raspi-fsdash/squareline/ui.c:
 
 /usr/include/aarch64-linux-gnu/bits/time64.h:
 
@@ -28726,6 +28689,10 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/font/lv_font_montserrat_8.c.o:
 
 /usr/include/asm-generic/socket.h:
 
+/lib/aarch64-linux-gnu/libXrandr.so.2:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_line.c:
+
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/font/lv_font.c:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/extra/layouts/flex/lv_flex.c:
@@ -28882,6 +28849,12 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/draw/lv_draw_mask.c.o:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/extra/libs/lv_libs.h:
 
+/usr/include/aarch64-linux-gnu/bits/types/stack_t.h:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/misc/lv_ll.c:
+
+/usr/include/c++/14/bits/requires_hosted.h:
+
 CMakeFiles/raspi_dash.dir/third_party/lvgl/src/font/lv_font_montserrat_48.c.o:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/lv_api_map.h:
@@ -28949,10 +28922,6 @@ CMakeFiles/raspi_dash.dir/squareline/ui_font_Font1.c.o:
 /usr/include/ctype.h:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/core/lv_indev_scroll.h:
-
-/usr/include/c++/14/tr1/poly_hermite.tcc:
-
-/usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
 
@@ -29064,10 +29033,6 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
 
 /usr/include/c++/14/bit:
 
-CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o:
-
-/usr/include/c++/14/bits/chrono.h:
-
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/extra/widgets/meter/lv_meter.h:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/core/lv_indev.h:
@@ -29149,10 +29114,6 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c
 CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/misc/lv_timer.h:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_tm.h:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/misc/lv_color.h:
 
@@ -29390,8 +29351,6 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/font/lv_font_montserrat_20.c.o:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/hal/lv_hal_disp.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
-
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/widgets/lv_img.h:
 
 /lib/aarch64-linux-gnu/libXi.so.6:
@@ -29428,12 +29387,6 @@ CMakeFiles/raspi_dash.dir/spi_ws2812.cpp.o:
 
 /usr/include/c++/14/concepts:
 
-/usr/include/aarch64-linux-gnu/bits/types/stack_t.h:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/misc/lv_ll.c:
-
-/usr/include/c++/14/bits/requires_hosted.h:
-
 CMakeFiles/raspi_dash.dir/third_party/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o:
 
 /usr/include/linux/limits.h:
@@ -29464,8 +29417,6 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/draw/renesas/lv_gpu_d2_draw_label
 
 CMakeFiles/raspi_dash.dir/third_party/lvgl/src/core/lv_obj_class.c.o:
 
-/usr/include/aarch64-linux-gnu/bits/time.h:
-
 /usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/aarch64-linux-gnu/bits/unistd_ext.h:
@@ -29493,6 +29444,14 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/core/lv_obj_class.c.o:
 CMakeFiles/raspi_dash.dir/third_party/lvgl/src/core/lv_obj_pos.c.o:
 
 /usr/include/asm-generic/errno-base.h:
+
+CMakeFiles/raspi_dash.dir/third_party/lvgl/src/misc/lv_txt.c.o:
+
+CMakeFiles/raspi_dash.dir/third_party/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/widgets/lv_textarea.c:
+
+/usr/include/asm-generic/errno.h:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sw/lv_draw_sw_transform.c:
 
@@ -29544,6 +29503,8 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/draw/nxp/vglite/lv_draw_vglite_li
 
 /usr/include/c++/14/limits:
 
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_composite.c:
+
 CMakeFiles/raspi_dash.dir/third_party/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o:
 
 /usr/include/c++/14/bits/invoke.h:
@@ -29569,22 +29530,6 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/font/lv_font_dejavu_16_persian_he
 /usr/include/c++/14/bits/ostream_insert.h:
 
 /usr/include/c++/14/bits/stl_pair.h:
-
-CMakeFiles/raspi_dash.dir/third_party/lvgl/src/misc/lv_txt.c.o:
-
-CMakeFiles/raspi_dash.dir/third_party/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/widgets/lv_textarea.c:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/c++/14/bits/parse_numbers.h:
-
-/lib/aarch64-linux-gnu/libffi.so.8:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_bg.c:
-
-/usr/include/c++/14/bits/postypes.h:
 
 /usr/include/SDL2/SDL_gamecontroller.h:
 
@@ -29668,13 +29613,11 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/font/lv_font_montserrat_26.c.o:
 
 /usr/include/c++/14/cstdlib:
 
-/usr/include/c++/14/ctime:
+/usr/include/c++/14/cstring:
 
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/extra/others/ime/lv_ime_pinyin.h:
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:
 
-/usr/include/aarch64-linux-gnu/bits/types/sigval_t.h:
-
-/usr/include/c++/14/ext/numeric_traits.h:
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/lv_draw_layer.c:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/misc/lv_tlsf.h:
 
@@ -29696,11 +29639,15 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/font/lv_font_montserrat_26.c.o:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/core/lv_obj.c:
 
+/usr/include/aarch64-linux-gnu/bits/types/sigval_t.h:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/extra/others/ime/lv_ime_pinyin.h:
+
+/usr/include/c++/14/ext/numeric_traits.h:
+
 /usr/include/c++/14/ext/string_conversions.h:
 
 /usr/lib/aarch64-linux-gnu/libgcc_s.so.1:
-
-/usr/include/c++/14/chrono:
 
 /usr/lib/gcc/aarch64-linux-gnu/14/include/float.h:
 
@@ -29726,8 +29673,6 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o:
 
 /usr/include/c++/14/pstl/glue_algorithm_defs.h:
 
-/usr/include/c++/14/ratio:
-
 /usr/include/c++/14/stdlib.h:
 
 /usr/include/c++/14/string_view:
@@ -29739,6 +29684,10 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o:
 /usr/include/c++/14/tr1/legendre_function.tcc:
 
 /usr/include/c++/14/tr1/modified_bessel_func.tcc:
+
+/usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/c++/14/tr1/poly_hermite.tcc:
 
 /lib/aarch64-linux-gnu/libX11-xcb.so.1:
 
@@ -29804,8 +29753,6 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.
 
 /usr/include/stdio.h:
 
-/usr/include/time.h:
-
 /usr/include/unistd.h:
 
 CMakeFiles/raspi_dash.dir/third_party/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o:
@@ -29827,6 +29774,10 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/draw/lv_draw_rect.c.o:
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/nxp/vglite/lv_vglite_buf.h:
 
 /usr/lib/gcc/aarch64-linux-gnu/14/include/stdbool.h:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.h:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c:
 
 /usr/lib/linux/uapi/arm64/asm/sigcontext.h:
 
@@ -29866,12 +29817,6 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
 
 /usr/include/asm-generic/sockios.h:
 
-/usr/include/c++/14/cstring:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:
-
-/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/lv_draw_layer.c:
-
 /usr/include/linux/can.h:
 
 /usr/include/aarch64-linux-gnu/c++/14/bits/os_defines.h:
@@ -29892,6 +29837,8 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/libs/png/lv_png.c.o:
 
 /usr/include/fcntl.h:
 
+/home/sure-fs/raspi-fsdash/squareline/ui.c:
+
 /home/sure-fs/raspi-fsdash/squareline/ui_Screen1.c:
 
 /usr/include/aarch64-linux-gnu/sys/user.h:
@@ -29899,6 +29846,8 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/libs/png/lv_png.c.o:
 /home/sure-fs/raspi-fsdash/squareline/ui_font_Font100.c:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.h:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl.c:
 
 /home/sure-fs/raspi-fsdash/squareline/ui_font_Font150.c:
 
@@ -29971,3 +29920,25 @@ CMakeFiles/raspi_dash.dir/third_party/lvgl/src/extra/themes/mono/lv_theme_mono.c
 /usr/include/SDL2/SDL_events.h:
 
 /home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/font/lv_font_montserrat_38.c:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.h:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sw/lv_draw_sw_letter.c:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_arc.c:
+
+/lib/aarch64-linux-gnu/libffi.so.8:
+
+/usr/include/c++/14/bits/postypes.h:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_bg.c:
+
+CMakeFiles/raspi_dash.dir/third_party/lvgl/src/widgets/lv_bar.c.o:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_img.c:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_label.c:
+
+/home/sure-fs/raspi-fsdash/third_party/lvgl/src/draw/sdl/lv_draw_sdl_layer.c:

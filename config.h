@@ -4,7 +4,7 @@
 
 #define RPM_DISPLAY_MIN 0      // Minimum RPM value that can be shown on the slider.
 
-#define RPM_DISPLAY_MAX 5000   // Maximum RPM value that can be shown on the slider.
+#define RPM_DISPLAY_MAX 10000   // Maximum RPM value that can be shown on the slider.
 
 #define RPM_MIN (int)(RPM_DISPLAY_MAX * 0.15)              // Starts flashing when RPM drops *below* this value (shift down).
 

@@ -29,7 +29,7 @@ add_executable(raspi_dash
   ${UI_SOURCES}
   ${CMAKE_SOURCE_DIR}/main.cpp
   ${CMAKE_SOURCE_DIR}/socketcan.cpp
-  ${CMAKE_SOURCE_DIR}/spi_ws2812.cpp
+  ${CMAKE_SOURCE_DIR}/spi_ws2812.cpp    # <-- back in
 )
 
 target_link_libraries(raspi_dash
@@ -40,5 +40,5 @@ target_link_libraries(raspi_dash
 
 message(STATUS "✅ Building raspi_dash with:")
 message(STATUS "   LVGL directory: ${LVGL_DIR}")
-message(STATUS "   SDL2 include: ${SDL2_INCLUDE_DIRS}")
-message(STATUS "   LVGL sources: ${LVGL_SOURCES}")
+message(STATUS "   SDL2 include:   ${SDL2_INCLUDE_DIRS}")
+message(STATUS "   LVGL sources:   ${LVGL_SOURCES}")
