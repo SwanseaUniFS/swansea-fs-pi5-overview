@@ -1210,11 +1210,5 @@
   "command": "/usr/bin/c++ -DLV_CONF_INCLUDE_SIMPLE -I/usr/include/SDL2 -I/home/sure-fs/raspi-fsdash -I/home/sure-fs/raspi-fsdash/squareline -I/home/sure-fs/raspi-fsdash/third_party/lvgl -std=gnu++17 -o CMakeFiles/raspi_dash.dir/socketcan.cpp.o -c /home/sure-fs/raspi-fsdash/socketcan.cpp",
   "file": "/home/sure-fs/raspi-fsdash/socketcan.cpp",
   "output": "CMakeFiles/raspi_dash.dir/socketcan.cpp.o"
-},
-{
-  "directory": "/home/sure-fs/raspi-fsdash/build",
-  "command": "/usr/bin/c++ -DLV_CONF_INCLUDE_SIMPLE -I/usr/include/SDL2 -I/home/sure-fs/raspi-fsdash -I/home/sure-fs/raspi-fsdash/squareline -I/home/sure-fs/raspi-fsdash/third_party/lvgl -std=gnu++17 -o CMakeFiles/raspi_dash.dir/spi_ws2812.cpp.o -c /home/sure-fs/raspi-fsdash/spi_ws2812.cpp",
-  "file": "/home/sure-fs/raspi-fsdash/spi_ws2812.cpp",
-  "output": "CMakeFiles/raspi_dash.dir/spi_ws2812.cpp.o"
 }
 ]

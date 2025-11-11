@@ -210,7 +210,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sure-fs/raspi-fsdash/third_party/lvgl/src/widgets/lv_textarea.c" "CMakeFiles/raspi_dash.dir/third_party/lvgl/src/widgets/lv_textarea.c.o" "gcc" "CMakeFiles/raspi_dash.dir/third_party/lvgl/src/widgets/lv_textarea.c.o.d"
   "/home/sure-fs/raspi-fsdash/main.cpp" "CMakeFiles/raspi_dash.dir/main.cpp.o" "gcc" "CMakeFiles/raspi_dash.dir/main.cpp.o.d"
   "/home/sure-fs/raspi-fsdash/socketcan.cpp" "CMakeFiles/raspi_dash.dir/socketcan.cpp.o" "gcc" "CMakeFiles/raspi_dash.dir/socketcan.cpp.o.d"
-  "/home/sure-fs/raspi-fsdash/spi_ws2812.cpp" "CMakeFiles/raspi_dash.dir/spi_ws2812.cpp.o" "gcc" "CMakeFiles/raspi_dash.dir/spi_ws2812.cpp.o.d"
   "" "raspi_dash" "gcc" "CMakeFiles/raspi_dash.dir/link.d"
   )
 

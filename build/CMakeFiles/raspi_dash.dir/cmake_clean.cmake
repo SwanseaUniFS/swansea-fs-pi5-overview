@@ -4,8 +4,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/raspi_dash.dir/main.cpp.o.d"
   "CMakeFiles/raspi_dash.dir/socketcan.cpp.o"
   "CMakeFiles/raspi_dash.dir/socketcan.cpp.o.d"
-  "CMakeFiles/raspi_dash.dir/spi_ws2812.cpp.o"
-  "CMakeFiles/raspi_dash.dir/spi_ws2812.cpp.o.d"
   "CMakeFiles/raspi_dash.dir/squareline/ui.c.o"
   "CMakeFiles/raspi_dash.dir/squareline/ui.c.o.d"
   "CMakeFiles/raspi_dash.dir/squareline/ui_Screen1.c.o"

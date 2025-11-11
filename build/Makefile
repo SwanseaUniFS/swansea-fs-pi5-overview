@@ -177,30 +177,6 @@ socketcan.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raspi_dash.dir/build.make CMakeFiles/raspi_dash.dir/socketcan.cpp.s
 .PHONY : socketcan.cpp.s
 
-spi_ws2812.o: spi_ws2812.cpp.o
-.PHONY : spi_ws2812.o
-
-# target to build an object file
-spi_ws2812.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/raspi_dash.dir/build.make CMakeFiles/raspi_dash.dir/spi_ws2812.cpp.o
-.PHONY : spi_ws2812.cpp.o
-
-spi_ws2812.i: spi_ws2812.cpp.i
-.PHONY : spi_ws2812.i
-
-# target to preprocess a source file
-spi_ws2812.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/raspi_dash.dir/build.make CMakeFiles/raspi_dash.dir/spi_ws2812.cpp.i
-.PHONY : spi_ws2812.cpp.i
-
-spi_ws2812.s: spi_ws2812.cpp.s
-.PHONY : spi_ws2812.s
-
-# target to generate assembly for a file
-spi_ws2812.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/raspi_dash.dir/build.make CMakeFiles/raspi_dash.dir/spi_ws2812.cpp.s
-.PHONY : spi_ws2812.cpp.s
-
 squareline/ui.o: squareline/ui.c.o
 .PHONY : squareline/ui.o
 
@@ -5016,9 +4992,6 @@ help:
 	@echo "... socketcan.o"
 	@echo "... socketcan.i"
 	@echo "... socketcan.s"
-	@echo "... spi_ws2812.o"
-	@echo "... spi_ws2812.i"
-	@echo "... spi_ws2812.s"
 	@echo "... squareline/ui.o"
 	@echo "... squareline/ui.i"
 	@echo "... squareline/ui.s"

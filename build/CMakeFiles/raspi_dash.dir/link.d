@@ -204,8 +204,8 @@ raspi_dash: \
   CMakeFiles/raspi_dash.dir/squareline/ui_helpers.c.o \
   CMakeFiles/raspi_dash.dir/main.cpp.o \
   CMakeFiles/raspi_dash.dir/socketcan.cpp.o \
-  CMakeFiles/raspi_dash.dir/spi_ws2812.cpp.o \
   /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libSDL2.so \
+  /usr/local/lib/libws2811.so \
   /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libpthread.a \
   /usr/lib/gcc/aarch64-linux-gnu/14/libstdc++.so \
   /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libm.so \
@@ -683,9 +683,9 @@ CMakeFiles/raspi_dash.dir/main.cpp.o:
 
 CMakeFiles/raspi_dash.dir/socketcan.cpp.o:
 
-CMakeFiles/raspi_dash.dir/spi_ws2812.cpp.o:
-
 /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libSDL2.so:
+
+/usr/local/lib/libws2811.so:
 
 /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libpthread.a:
 
