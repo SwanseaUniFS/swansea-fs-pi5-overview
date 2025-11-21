@@ -179,7 +179,7 @@ static void handle_2000(const CanFrame &fr){
 static void handle_2001(const CanFrame &fr){
   bool used_be=false;
   uint16_t raw = u16_auto(&fr.data[6], "oilP", &used_be);
-  double kpa = raw/100;
+  double kpa = raw/100.0;
 #if 1
   std::printf("[CAN] 2001 oilP_raw=%u kPa=%.1f%s\n",(unsigned)raw,kpa,used_be?" (BE)":"");
 #endif
