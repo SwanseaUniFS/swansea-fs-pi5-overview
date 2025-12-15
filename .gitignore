@@ -1,3 +1,4 @@
+.githooks/
 # Build directories
 /build/
 build/
