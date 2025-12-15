@@ -106,7 +106,7 @@ static void updateRPMLEDs_progress(uint16_t rpm, uint32_t now_ms){
 }
 
 // ===================== CAN parsing =====================
-static uint16_t last_rpm_raw=0xFFFF, last_oilp_raw=0xFFFF, last_oilt_raw=0xFFFF, last_volt_raw=0xFFFF;
+static uint16_t last_rpm_raw=0xFFFF, last_speed_raw=0xFFFF,last_oilp_raw=0xFFFF, last_oilt_raw=0xFFFF, last_volt_raw=0xFFFF;
 
 static inline uint16_t u16_le(const uint8_t *d){ return uint16_t(d[0] | (uint16_t(d[1])<<8)); }
 static inline uint16_t u16_be(const uint8_t *d){ return uint16_t((uint16_t(d[0])<<8) | d[1]); }
@@ -174,10 +174,27 @@ static void handle_2000(const CanFrame &fr){
   // Update LEDs based on CAN RPM moved to main loop
  
 }
+static void speed(const CanFrame &fr) {
+  bool used_be = false;
+  uint16_t raw = u16_auto(&fr.data[4], "speed kph", &used_be);
+  double speed = raw / 10.0;
+  #if 1
+    std::printf("[CAN] 2001 oilP_raw=%u kPa=%.1f%s\n",(unsigned)raw,speed,used_be?" (BE)":"");
+  #endif
+  if (last_speed_raw != raw) {
+    last_speed_raw = raw;
+    char buf32[32];
+    std::snprintf(buf32,sizeof(buf32),"%u",(unsigned)speed);
+    lv_label_set_text(ui_espeed, buf32);
+    lv_arc_set_value(ui_espeedarc, speed);
+  }
+
+}
 
 //0x2001 pressure
 static void handle_2001(const CanFrame &fr){
-  bool used_be=false;
+  speed(fr);
+  bool used_be = false;
   uint16_t raw = u16_auto(&fr.data[6], "oilP", &used_be);
   double kpa = raw/100.0;
 #if 1
