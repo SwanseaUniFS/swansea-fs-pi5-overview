@@ -197,13 +197,25 @@ static void handle_2001(const CanFrame &fr){
   bool used_be = false;
   uint16_t raw = u16_auto(&fr.data[6], "oilP", &used_be);
   double kpa = raw/100.0;
+  static bool avg_init = false;
+  static double oilp_avg = 0.0;
+
+  constexpr double alpha = 0.01; // tune this (0.05–0.2 typical)
+
+  if (!avg_init) {
+      oilp_avg = kpa;   // first sample
+      avg_init = true;
+  } else {
+      oilp_avg += alpha * (kpa - oilp_avg);
+  }
+
 #if 1
-  std::printf("[CAN] 2001 oilP_raw=%u kPa=%.1f%s\n",(unsigned)raw,kpa,used_be?" (BE)":"");
+  std::printf("[CAN] 2001 oilP_raw=%u kPa=%.1f%s\n",(unsigned)raw,oilp_avg,used_be?" (BE)":"");
 #endif
-  if (raw != last_oilp_raw){
+  if (true){
     last_oilp_raw = raw;
     char buf32[32];
-    std::snprintf(buf32,sizeof(buf32),"%.1f",kpa);
+    std::snprintf(buf32,sizeof(buf32),"%.1f",oilp_avg);
     lv_label_set_text(ui_eoilpressure, buf32);
     lv_obj_set_style_text_color(ui_eoilpressure,  lv_color_hex(0xFFFFFF), 0);
     lv_obj_set_style_text_color(ui_oilpressuredu, lv_color_hex(0xFFFFFF), 0);
