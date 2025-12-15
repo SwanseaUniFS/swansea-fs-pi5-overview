@@ -1,2 +1,18 @@
 .githooks/
+# Build directories
+/build/
 build/
+
+# CMake generated files (in case of in-source builds)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build.ninja
+rules.ninja
+compile_commands.json
+
+# Binaries
+raspi_dash
+*.out
+*.elf

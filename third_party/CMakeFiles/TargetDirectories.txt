@@ -1,3 +1,0 @@
-/home/sure-fs/∼/raspi-fsdash/third_party/CMakeFiles/raspi_dash.dir
-/home/sure-fs/∼/raspi-fsdash/third_party/CMakeFiles/edit_cache.dir
-/home/sure-fs/∼/raspi-fsdash/third_party/CMakeFiles/rebuild_cache.dir
