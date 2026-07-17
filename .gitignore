@@ -16,3 +16,4 @@ compile_commands.json
 raspi_dash
 *.out
 *.elf
+test_led
