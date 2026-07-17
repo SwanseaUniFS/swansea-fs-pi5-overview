@@ -34,7 +34,7 @@ static constexpr int MAX_CAN_PER_FRAME = 300;
 // =================== LED strip (ws281x) ===============
 // Use rpi_ws281x (no spi_ws2812.hpp). Supported pins for WS281X: 18,12,13,19.
 static constexpr int   LED_PIN = 18;                 // <-- set your GPIO here
-static constexpr int   LED_COUNT = 19;
+static constexpr int   LED_COUNT = 17;
 static constexpr int   LED_BRIGHTNESS = 128;         // 0..255
 static constexpr uint32_t FLICKER_INTERVAL_MS = 20;  // flash cadence for ≥85%
 static constexpr uint32_t RPM_TIMEOUT_MS      = 400; // blank if no RPM frame
