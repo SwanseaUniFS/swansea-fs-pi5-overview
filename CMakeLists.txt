@@ -17,6 +17,7 @@ set(LVGL_DIR "${CMAKE_SOURCE_DIR}/third_party/lvgl")
 # Headers usually in /usr/local/include, library in /usr/local/lib
 find_path(WS2811_INCLUDE_DIR ws2811.h
   PATHS /usr/local/include /usr/include
+  PATH_SUFFIXES ws2811
 )
 find_library(WS2811_LIB ws2811
   PATHS /usr/local/lib /usr/lib
